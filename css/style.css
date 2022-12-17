@@ -1,7 +1,76 @@
-body {
+/* ОСНОВА */
+* {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
-img {
-    width: 300px;
+
+body {
+   font-family: 'Inter', sans-serif;
+   font-size: 18px;
+   line-height: 22px;
+   font-weight: 400px;
+   color:#0a0a0a;
+}
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    background-color: rgb(59, 154, 157);
+    line-height: 50px;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.item {
+    display: block;
+    padding: 0 25px;
+    text-decoration: none;
+    color: aliceblue;
+    font-size: 16px;
+    transition: .3s;
+}
+
+.item:hover {
+    background-color: rgb(61, 178, 182);
+}
+/* SECTION_PROFILE */
+
+.section-profile {
+    
+    text-align: center;
+    padding: 50px 0 20px;
+}
+
+.myprofile {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 180px;
+}
+
+.photo {
+    width: 200px;
+    border-radius: 50%;
+}
+
+.title {
+    
+    text-transform: uppercase;
 }
