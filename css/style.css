@@ -6,12 +6,13 @@
 }
 
 body {
-   font-family: 'Inter', sans-serif;
-   font-size: 18px;
-   line-height: 22px;
-   font-weight: 400px;
-   color:#0a0a0a;
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400px;
+    color: #0a0a0a;
 }
+
 html {
     scroll-behavior: smooth;
 }
@@ -25,7 +26,7 @@ h2 {
 
 .header {
     background-color: rgb(59, 154, 157);
-    line-height: 50px;
+    line-height: 70px;
 }
 
 .container {
@@ -57,6 +58,7 @@ h2 {
 .item:hover {
     background-color: rgb(61, 178, 182);
 }
+
 /* SECTION_PROFILE */
 
 .main {
@@ -73,7 +75,7 @@ h2 {
 }
 
 .section-profile {
-    
+
     text-align: center;
     padding: 50px 20px 50px;
 }
@@ -96,7 +98,7 @@ h2 {
 .section-title {
     justify-content: center;
     text-align: center;
-    
+
 
 }
 
@@ -132,6 +134,7 @@ h2 {
     justify-content: space-between;
     margin: 0 auto;
 }
+
 /* SECTION CONTACS */
 .section-contacts {
     margin-left: 50px;
@@ -142,7 +145,7 @@ h2 {
     max-width: 600px;
     display: block;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     padding: 0 auto;
 }
@@ -151,6 +154,7 @@ h2 {
     margin-top: 30px;
     line-height: 40px;
 }
+
 /* SECTION SUMMARY */
 .section-summary {
     /* margin-left: 50px; */
@@ -159,7 +163,7 @@ h2 {
 
 .summary {
     max-width: 600px;
-    margin: 0px 50px 0px 0px ;
+    margin: 0px 50px 0px 0px;
 }
 
 .summary-text {
@@ -178,7 +182,7 @@ h2 {
     max-width: 600px;
     display: block;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     padding: 0 auto;
 }
@@ -187,18 +191,17 @@ h2 {
     margin-top: 30px;
     line-height: 40px;
 }
+
 /* SECTION CODE */
 .section-code {
     /* margin-left: 50px; */
-    padding: 50px 0px 50px ;
-    
-    
+    padding: 50px 0px 50px;
 }
 
 .code {
+    width: 600px;
     max-width: 600px;
-    margin: 0px 50px 0px 0px ;
-    
+    margin: 0px 50px 0px 0px;
 }
 
 .code-text {
@@ -223,7 +226,7 @@ h2 {
     max-width: 600px;
     display: block;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-around;
     align-items: center;
     padding: 0 auto;
 }
@@ -240,8 +243,9 @@ h2 {
 }
 
 .projects {
+    width: 600px;
     max-width: 600px;
-    margin: 0px 50px 0px 0px ;
+    margin: 0px 50px 0px 0px;
 }
 
 .projects-text {
@@ -260,33 +264,58 @@ h2 {
     max-width: 500px;
     display: block;
     flex-direction: row;
-    justify-content:space-around;
+    justify-content: space-around;
     /* align-items: center; */
     padding: 0 auto;
-    
+
 }
 
 .enducation-list {
     margin-top: 30px;
-    line-height:30px;
+    line-height: 30px;
 }
 
 /* SECTION ENGLISH */
 .section-english {
     /* margin-left: 50px; */
-    padding: 50px 0px 50px ;
-    
-    
+    padding: 50px 0px 50px;
+
+
 }
 
 .english {
     width: 600px;
     max-width: 600px;
-    margin: 0px 50px 0px 0px ;
-    
+    margin: 0px 50px 0px 0px;
+
 }
 
 .english-text {
     margin-top: 30px;
     line-height: 30px;
+}
+
+.footer {
+    background-color: rgb(59, 154, 157);
+    padding: 10px;
+}
+
+.container-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.github {
+    text-decoration: none;
+    color: aliceblue;
+    padding: 0px 15px;
+}
+
+.rss {
+    width: 120px;
+    height: 50px;
+    background-image: url(/rsschool-cv/img/rs_school_js.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
 }
