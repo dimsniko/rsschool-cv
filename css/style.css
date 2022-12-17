@@ -115,7 +115,14 @@ h2 {
     max-width: 1300px;
     margin: 0 auto;
     padding: 0 15px;
-    border-bottom: 5px solid rgba(61, 178, 182, 0.5);
+    border-bottom: 5px solid rgba(215, 94, 211, 0.341);
+}
+
+.line-second {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 15px;
+    border-bottom: 3px dashed rgba(215, 94, 211, 0.341);
 }
 
 .main-container-info {
@@ -125,7 +132,7 @@ h2 {
     justify-content: space-between;
     margin: 0 auto;
 }
-
+/* SECTION CONTACS */
 .section-contacts {
     margin-left: 50px;
     padding: 50px 0px 50px;
@@ -144,7 +151,7 @@ h2 {
     margin-top: 30px;
     line-height: 40px;
 }
-
+/* SECTION SUMMARY */
 .section-summary {
     /* margin-left: 50px; */
     padding: 50px 0px 50px;
@@ -156,6 +163,130 @@ h2 {
 }
 
 .summary-text {
+    margin-top: 30px;
+    line-height: 30px;
+    /* text-align: justify; */
+}
+
+/* SECTION SKILL */
+.section-skills {
+    margin-left: 50px;
+    padding: 50px 0px 50px;
+}
+
+.skills {
+    max-width: 600px;
+    display: block;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    padding: 0 auto;
+}
+
+.skill-list {
+    margin-top: 30px;
+    line-height: 40px;
+}
+/* SECTION CODE */
+.section-code {
+    /* margin-left: 50px; */
+    padding: 50px 0px 50px ;
+    
+    
+}
+
+.code {
+    max-width: 600px;
+    margin: 0px 50px 0px 0px ;
+    
+}
+
+.code-text {
+    margin-top: 30px;
+    line-height: 30px;
+}
+
+.pre {
+    display: block;
+    padding: 0;
+    margin: 0;
+    white-space: rpe;
+}
+
+/* SECTION COURSES */
+.section-courses {
+    margin-left: 50px;
+    padding: 50px 0px 50px;
+}
+
+.courses {
+    max-width: 600px;
+    display: block;
+    flex-direction: row;
+    justify-content:space-around;
+    align-items: center;
+    padding: 0 auto;
+}
+
+.courses-list {
+    margin-top: 30px;
+    line-height: 40px;
+}
+
+/* SECTION PROJECTS */
+.section-projects {
+    /* margin-left: 50px; */
+    padding: 50px 0px 50px;
+}
+
+.projects {
+    max-width: 600px;
+    margin: 0px 50px 0px 0px ;
+}
+
+.projects-text {
+    margin-top: 30px;
+    line-height: 30px;
+    /* text-align: justify; */
+}
+
+/* SECTION ENDUCATION */
+.section-enducation {
+    margin-left: 50px;
+    padding: 50px 0px 50px;
+}
+
+.enducation {
+    max-width: 500px;
+    display: block;
+    flex-direction: row;
+    justify-content:space-around;
+    /* align-items: center; */
+    padding: 0 auto;
+    
+}
+
+.enducation-list {
+    margin-top: 30px;
+    line-height:30px;
+}
+
+/* SECTION ENGLISH */
+.section-english {
+    /* margin-left: 50px; */
+    padding: 50px 0px 50px ;
+    
+    
+}
+
+.english {
+    width: 600px;
+    max-width: 600px;
+    margin: 0px 50px 0px 0px ;
+    
+}
+
+.english-text {
     margin-top: 30px;
     line-height: 30px;
 }
